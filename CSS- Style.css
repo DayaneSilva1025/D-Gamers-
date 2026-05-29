@@ -1,0 +1,85 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial;
+}
+
+.logo {
+  color: orange !important;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.banner-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.titulo {
+  margin-bottom: 30px;
+  text-align: center;
+  color: orange;
+}
+
+.produto-card {
+  background-color: #1d1d1d;
+  color: white;
+  transition: 0.4s;
+}
+
+.produto-card:hover {
+  transform: scale(1.05);
+}
+
+.novidades {
+  background-color: #222;
+  padding: 50px;
+  margin-top: 60px;
+}
+
+.email {
+  max-width: 400px;
+  margin: auto;
+}
+
+.galeria {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.rodape {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #222;
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+  .banner-img {
+    height: 250px;
+  }
+
+  .produto-card {
+    margin-bottom: 20px;
+  }
+
+  .novidades {
+    padding: 30px;
+  }
+}
